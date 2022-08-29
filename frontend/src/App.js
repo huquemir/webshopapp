@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
-let App = () => {
+const App = () => {
   return (
     <>
+    <Header />
+    <main>
     <h1>Welcome to the shop</h1>
+
+    </main>
+    <Footer />
     </>
   )
 
